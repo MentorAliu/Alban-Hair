@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+body { 
+    padding-top: 56px; 
+}
+.pimg1, .pimg2 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pimg1 {
+    background-image: url('/img/background1.jpg');
+    min-height: 100%;
+
+    background-attachment: fixed;
+}
+
+.pimg2 {
+    background-image: url('/img/background2.jpg');
+    min-height: 100%;
+
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 1.2rem;
+}
