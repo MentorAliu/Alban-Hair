@@ -25,9 +25,11 @@ body, html {
 }
 
 .pimg2 {
-    background-image: url('/img/background2.jpg');
+    background-image: url('/img/background-2.jpg');
     min-height: 100%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-attachment: fixed;
 }
 
@@ -51,12 +53,6 @@ body, html {
 
 
 
-#carouselExampleCaptions .carousel-item img {
-    object-fit: contain;
-    object-position: center;
-    height: 50vh;
-    overflow: hidden;
-}
 
 
 
@@ -64,9 +60,8 @@ body, html {
     .pimg1, .pimg2 {
         background-attachment: scroll;
     }
-    .navbar-brand {
-        display:none;
-    }
+    
+
 }
 .galeria-button {
 	color: #494949 !important;
@@ -83,4 +78,22 @@ body, html {
 	background: #f6b93b;
 	border-color: #f6b93b !important;
 	transition: all 0.4s ease 0s;
+}
+
+
+.img-fluid {
+    max-height: 40vh;
+    border-radius: 5%;
+}
+
+.albanBio {
+
+    display: flex;
+    max-width: 30%;
+    overflow: hidden;
+}
+
+.albanBio-text {
+    margin-top: 5rem;
+    font-size: 1.5rem;
 }
