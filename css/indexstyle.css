@@ -60,7 +60,6 @@ body, html {
     .pimg1, .pimg2 {
         background-attachment: scroll;
     }
-    
 
 }
 .galeria-button {
@@ -87,13 +86,7 @@ body, html {
 }
 
 .albanBio {
-
     display: flex;
     max-width: 30%;
-    overflow: hidden;
-}
-
-.albanBio-text {
-    margin-top: 5rem;
-    font-size: 1.5rem;
+    background-color: blue;
 }
