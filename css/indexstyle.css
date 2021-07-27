@@ -90,3 +90,9 @@ body, html {
     max-width: 30%;
     background-color: blue;
 }
+
+iframe {
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
