@@ -11,7 +11,7 @@ body, html {
 
 .pimg1, .pimg2 {
     position: relative;
-    opacity: 0.80;
+    opacity: 0.75;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,6 +59,13 @@ body, html {
 @media(max-width:568px) {
     .pimg1, .pimg2 {
         background-attachment: scroll;
+    }
+    .artisti-display-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .artisti-font-size {
+        font-size: .5rem;
     }
 
 }
